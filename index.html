@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/icono.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="assets/css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +48,7 @@
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-desarrollador rounded-circle" src="assets/img/foto1.webp" alt="Foto de Manuel Millán">
         <h1>Hola, soy Manuel Millán</h1>
-        <h2>Desarrollador Full Stack JS con enfoque al desarollo Front end.</h2>
+        <h2>Desarrollador Full Stack JS con enfoque al desarollo Front end y QA testing.</h2>
       </div>
       <div class="hero-inferior">
         <img class="hero-inferior-imagen img-fluid" src="assets/img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS y JavaScript.">
@@ -60,8 +61,8 @@
         <h2 class="seccion-titulo">Conoce a Manuel Millán</h2>
         <p class="seccion-texto">Soy Desarrollador Full Stack y Licenciado en Química, una combinación que une análisis y creatividad.
 Pasé del laboratorio al código, impulsado por la curiosidad y las ganas de crear soluciones útiles.
-Trabajo con tecnologías como HTML, CSS, React y Node.js, y también tengo experiencia en marketing digital y Google Ads.
-Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y la tecnología en cada proyecto.</p>
+Trabajo con tecnologías como HTML, CSS, JavaScript, React, Tailwind y Node.js, y también tengo experiencia en marketing digital y Google Ads.
+Me adapto rápido, me gusta aportar ideas y trabajar en equipo buscando soluciones en cada proyecto.</p>
       </div>
     </section>
 
@@ -99,15 +100,18 @@ Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y l
               <span class="badge text-bg-primary">Mailchimp</span>
             </div>
           </div>
-          <!-- Estudiante -->
+          <!-- QA Testing -->
           <div class="columna col-12 col-md-4">
             <i class="bi bi-laptop"></i>
-            <p class="experiencia-titulo">Estudiante</p>
-            <p>Siempre interesado en aprender, actualmente ampliando mis habilidades aprendiendo otras tecnologías Next y Vue.</p>
+            <p class="experiencia-titulo">QA Testing</p>
+            <p>Formación intensiva orientada a dominar la automatización de pruebas web, API y móviles, utilizando herramientas líderes de la industria. Desarrollé habilidades usando: Cypress, Postman, Newman y SuperTest usando Jest/Mocha, Playwright y Appium</p>
             <div class="badges-contenedor">
-              <span class="badge text-bg-primary">Next.js</span>
-              <span class="badge text-bg-primary">Vue</span>
-              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Cypress</span>
+              <span class="badge text-bg-primary">Postman</span>
+              <span class="badge text-bg-primary">Newman</span>
+              <span class="badge text-bg-primary">Supertest</span>
+              <span class="badge text-bg-primary">Playwright</span>
+              <span class="badge text-bg-primary">Appium</span>
             </div>
           </div>
         </div>
@@ -121,10 +125,56 @@ Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y l
       <!-- Galeria de Proyectos -->
       <div class="container text-center proyectos-contenedor">
         <div class="row">
-         
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/webaffilit.png" alt="Web Plataforma de afiliados">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Tailwind</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">SEO</span>
+              <span class="badge text-bg-primary">GA</span>
+              <span class="badge text-bg-primary">vercel</span>
+              </div>
+              <div class="overlay">
+                <p>Web Plataforma de afiliados</p>
+                <div class="iconos-contenedor">
+                  <a href="https://nutriglar.vercel.app/nutricion" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="assets/img/lcc1.png" alt="Language Center Chile">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Wordpress</span>
+              <span class="badge text-bg-primary">Elementor</span>
+              <span class="badge text-bg-primary">LMS</span>
+              <span class="badge text-bg-primary">Astra</span>
+              </div>
+              <div class="overlay">
+                <p>Language Center Chile</p>
+                <div class="iconos-contenedor">
+                  <a href="https://languagecenterchile.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="assets/img/skillsyncedu.png" alt="SkillSyncEDU Proyecto No-Country">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Tailwind</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              </div>
               <div class="overlay">
                 <p>SkillSyncEDU Proyecto No-Country</p>
                 <div class="iconos-contenedor">
@@ -139,6 +189,11 @@ Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y l
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="assets/img/aidie.png" alt="Whoisaidie Hackaton AudienceView">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              </div>
               <div class="overlay">
                 <p>Hackaton AudienceView</p>
                 <div class="iconos-contenedor">
@@ -153,6 +208,12 @@ Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y l
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="assets/img/incubadora.png" alt="Plataforma empleabilidad">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Tailwind</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">netlify</span>
+              </div>
               <div class="overlay">
                 <p>Plataforma empleabilidad</p>
                 <div class="iconos-contenedor">
@@ -163,28 +224,33 @@ Me adapto rápido, disfruto resolver problemas y unir lo mejor de la ciencia y l
               </div>
             </div>
           </div>
-
+         
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="assets/img/proyecto4..png" alt="Proyecto Hospedaje">
+              <img src="assets/img/idforideas.png" alt="Proyecto IDforIdeas">
+              <div class="badges-contenedor">
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Tailwind</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">vercel</span>
+              </div>
               <div class="overlay">
-                <p>Proyecto Hospedaje</p>
+                <p>Proyecto IDforIdeas</p>
                 <div class="iconos-contenedor">
-                  <a href="https://manuelmillan1979.github.io/desafio4/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://pizzeria-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-         
-          <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="assets/img/idforideas.png" alt="Proyecto IDforIdeas">
+              <img src="assets/img/proyecto4..png" alt="Proyecto Hospedaje">
               <div class="overlay">
-                <p>Proyecto IDforIdeas</p>
+                <p>Proyecto Hospedaje</p>
                 <div class="iconos-contenedor">
-                  <a href="https://pizzeria-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://manuelmillan1979.github.io/desafio4/" target="_blank" rel="noopener noreferrer">
                     <i class="bi bi-github"></i>
                   </a>
                 </div>
